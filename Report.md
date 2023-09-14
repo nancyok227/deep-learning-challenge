@@ -4,6 +4,7 @@
     3. * The 'EIN' and 'NAME' columns were dropped/removed, because they were neither targets nor features for the dataset.
 
 * Compiling, Training, and Evaluating the Model
+
     4. * In the first attempt, I used 80 nodes for the first hidden layer and 30 nodes for the second hidden layer -- these were just random guesses. 
        * For the second attempt, I used 10 nodes for the first hidden layer and 8 nodes for the second hidden layer -- also these were just random guesses to check if better optimization rate could be achieved for the model.
        * Lastly, 3 layers were tried on the model with nodes 90, 40, and 10 for the first, second, and third layers respectively and the epochs was increased from 100 to 120 for the third attempt.
